@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resturant.css">
+    <!-- <link rel="stylesheet" href="code.css"> -->
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">home</a>
+                    <a id="shop" onclick="shops()">shops</a>
+                    <a id="blog" onclick="blogs()">blog</a>
+                    <a id="about" onclick="abouts()">about</a>
+                    <a id="contact" onclick="contacts()">contact</a>
+
+                    <img src="../image/cart.jpeg">
+
+                </li>
+            </ul>
+
+        </nav>
+
+
+        <!-- main page -->
+        <div class="main">
+            <div class="maintext">
+                <h1>Trends</h1>
+                <h1 class="to
+        p">super value deals</h1>
+                <h1>on all products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button>Explore</button>
+            </div>
+            <img src="../image/girl.jpeg" class="title">
+        </div>
+        <!-- card -->
+        <div class="trend">
+            <div class="head">
+                <h1>Trends <span>men's Wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="../image/shirt.jpeg" alt="" onclick="show(this)">
+                    <div class="crd-title-1">
+                        <h2> treding girl top</h2>
+                        <img src="../image/moon.png">
+                        <button>add to cart</button><br>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="../image/lining.jpeg" onclick="show(this)">
+                    <div class="crd-title">
+                        <h2> treding girl top</h2>
+
+                        <img src="../image/moon.png">
+
+                        <button>add to cart</button><br>
+
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="../image/joc.jpeg" onclick="show(this)">
+                    <div class="crd-title">
+                        <h2> treding girl top</h2>
+
+                        <img src="../image/moon.png">
+                        <button>add to cart</button><br>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- women -->
+        <div class="trend" id="trendSec">
+            <div class="head">
+                <h1>Trends <span>girl wear</span></h1>
+            </div>
+            <!-- cart1 -->
+            <div class="card">
+                <div class="crd">
+                    <img src="../image/fb.jpeg" onclick="show(this)">
+                    <div class="crd-title">
+                        <h2> treding girl top</h2>
+                        <img src="../image/moon.png">
+                        <button>add to cart</button><br>
+
+                    </div>
+                </div>
+                <!-- cart2 -->
+
+                <div class="crd">
+                    <img src="../image/gown.jpeg" height="68%" onclick="show(this)">
+                    <div class="crd-title-2">
+                        <h2> treding girl top</h2>
+                        <img src="../image/moon.png">
+                        <button>add to cart</button><br>
+
+                    </div>
+
+
+                </div>
+
+                <!-- cart3 -->
+
+                <div class="crd">
+                    <img src="../image/gm.jpeg" height="68%" onclick="show(this)">
+                    <div class="crd-title-3">
+                        <h2> treding girl top</h2>
+                        <img src="../image/moon.png">
+                        <button>add to cart</button><br>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- cart -->
+
+        <!-- about -->
+        <div class="about">
+            <div class="aboutus">
+                <h1>#knowus</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="me">
+                <img src="../image/carton.png" alt="">
+                <div class="abouttext">
+                    <h1>who we are?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit quaerat ea voluptatem corrupti
+                        alias esse dolor adipisci vitae nam. Culpa amet dolor nisi atque praesentium nihil beatae
+                        architecto, itaque sint.</p>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div class="contact">
+            <div class="contactus">
+                <h1>#lets connect</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="contactMe">
+
+                <div class="contactText">
+                    <h1>visit our office or contact</h1><br>
+                    <p>address:dablin park,england,new york</p>
+                    <p>contact:divyapatidar11@gmail.com</p>
+                    <p>8817752265</p>
+
+
+                </div>
+                <img src="../image/map.jpeg" alt="">
+            </div>
+            <div class="form">
+                <h1>connect with us.fill form</h1>
+                <input type="text" placeholder="enter email"><br>
+                <input type="text" placeholder="enter email"><br>
+                <input type="text" placeholder="enter email"><br>
+                <input type="text" placeholder="enter email"><br>
+                <input type="text" placeholder="enter email"><br>
+                <button>submit</button>
+            </div>
+        </div>
+        <!-- cart -->
+        <div class="cart">
+            <img id="newImg" src="../image/m.jpeg">
+            <div class="cartText">
+                <h1>Trends offer:Trending shop now</h1><br>
+                <h2>special price</h2>
+                <h2>$11</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+                <div class="btn">
+                    <button>buy now</button>
+                    <button>add to cart</button>
+                </div>
+                <button class="back">back</button>
+            </div>
+        </div>
+
+        <!-- blogs -->
+        <div class="trends">
+            <div class="head">
+                <h1>Trends <span>top blog's</span></h1>
+            </div>
+            <div class="card">
+                <div class="blog">
+                    <img src="../image/fl.jpeg">
+                    <div class="blogstext">
+                        <h2>trending girl clothes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cum architecto a et tempora
+                            quae necessitatibus voluptatibus </p>
+                        <a href="https://images.app.goo.gl/r5iYvEUsuvjseP2n7">Read More</a>
+                    </div>
+                </div>
+
+
+                <div class="blog">
+                    <img src="../image/men.jpeg">
+                    <div class="blogstext">
+                        <h2>trending boys clothes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cum architecto a et tempora
+                            quae necessitatibus voluptatibus </p>
+                        <a href="https://images.app.goo.gl/PFjqbmExbSSdrzJG9">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- letter -->
+        <div class="letter">
+            <div class="lettertext">
+                <h1>sign up for newsletter</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, totam culpa. Obcaecati</p>
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Enter Email">
+                <button>sign up</button>
+            </div>
+        </div>
+        <!-- footer  -->
+        <div class="footer">
+            <div class="footertext">
+                <h2>Trends</h2>
+                <p>servies</p>
+                <p>customer</p>
+                <p>satisfaction</p>
+                <p></p>
+            </div>
+
+            <div class="footertext">
+                <h2>about us</h2>
+                <p>address:lorem dolor sit amet,<br>
+                    consectecture adipiscing <br>
+                    perferends,excepturi alias</p>
+                <p>servies</p>
+                <p>customer</p>
+                <p>satisfaction</p>
+            </div>
+
+            <div class="footertext">
+                <h2>contact</h2>
+                <p>9989003229</p>
+                <p>customer</p>
+                <p>comming up</p>
+                <p>new arrival</p>
+            </div>
+            <div class="footertext">
+                <h2>Treding</h2>
+                <p>service</p>
+                <p>customer</p>
+                <p>sHops</p>
+                <p></p>
+            </div>
+
+        </div>
+    </div>
+    <script src="web.js"></script>
+
+</body>
+</html>
